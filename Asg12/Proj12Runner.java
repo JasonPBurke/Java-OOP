@@ -4,13 +4,11 @@ import java.io.Serializable;
 class Proj12Runner{
 		
 	public Proj12Runner(){
-		
-		System.out.println("I certify that this program is my own work");
-		System.out.println("and is not the work of others.  I agree not");
-		System.out.println("to share my solution with others.");
+
 		System.out.println("Jason Burke");
 		System.out.println(); 
 	}
+	
 	public Collection getCollection(String[] list){
 		
 		Collection<String> ref = new TreeSet<>(new TheComparator());

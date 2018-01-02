@@ -72,9 +72,6 @@ class Proj02Runner{
 		// Instansiate an instance of the turtle01 object
 		//turtle01 = new Turtle(pic);
 		
-		pic.addMessage("I certify that this program is my own work",10,20);
-		pic.addMessage("and is not the work of others.  I agree not",10,38);
-		pic.addMessage("to share my solution with others.",10,56);
 		pic.addMessage("Jason Burke",10,74);
 
 		

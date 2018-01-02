@@ -16,10 +16,6 @@ class Proj04Runner{
 		Turtle turtle = new Turtle(0,0,pix);
 		
 		// Add message directly to pic.
-		pix.addMessage("I certify that this",2,18);
-		pix.addMessage("program is my own",2,36);
-		pix.addMessage("work and is not the",2,54);
-		pix.addMessage("work of others.",2,72);
 		pix.addMessage("Jason Burke",2,90);
 
 		

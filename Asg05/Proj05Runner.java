@@ -35,9 +35,6 @@ class Proj05Runner extends Proj05{
 		parabola(snowScene);
 		
 		// Display name on final output.
-		snowScene.addMessage("I certify that this program is my own work",10,60);
-		snowScene.addMessage("and is not the work of others. I agree not",10,78);
-		snowScene.addMessage("to share my solution with others.",10,96);
 		snowScene.addMessage("Jason Burke",10,114);
 		
 		snowScene.explore();

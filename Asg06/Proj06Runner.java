@@ -15,9 +15,6 @@ public class Proj06Runner extends Proj06{
 	
 	public void run(double rotate){ // first image
 		//Add name and display the first picture.
-		pic.addMessage("I certify thatthis program is my own work",10,20);
-		pic.addMessage("and is not the work of others.  I agree not",10,38);
-		pic.addMessage("to share my solution with others.",10,56);
 		pic.addMessage("Jason P Burke",10,74);
 				
 		pic = rotatePicture(pic,rotate);
@@ -29,9 +26,6 @@ public class Proj06Runner extends Proj06{
 	
 	public void run(int rotate){ // Second image
 		//Add name and display the first picture.
-		pic.addMessage("I certify thatthis program is my own work",10,20);
-		pic.addMessage("and is not the work of others.  I agree not",10,38);
-		pic.addMessage("to share my solution with others.",10,56);
 		pic.addMessage("Jason Burke",10,74);
 
 		pic = rotatePicture(pic,rotate);//rotate recieves a passed in value for the rotation.
